@@ -1,2 +1,2 @@
 # docker-hub-CI-CD-explanation
-Branch for product
+Branch for production
