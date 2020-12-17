@@ -8,4 +8,4 @@ services:
        NODE_ENV: test
    ports:
      - "8000:8000"
-   command: run_tests.sh
+   command: ./run_tests.sh
