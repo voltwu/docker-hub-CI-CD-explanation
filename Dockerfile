@@ -6,6 +6,6 @@ COPY . .
 
 RUN chmod +x /usr/src/app/run_tests.sh
 
-ENV PATH="/usr/src/app/run_tests.sh:${PATH}"
+ENV PATH="/usr/src/app:${PATH}"
 
 CMD ["python","-m","http.server","--cgi","8000"]
