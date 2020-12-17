@@ -5,7 +5,7 @@ services:
    build:
      context: .
      args:
-       NODE_ENV: /usr/src/app/run_tests.sh
+       NODE_ENV: Test
    ports:
      - "8000:8000"
    command: run_tests.sh
