@@ -4,7 +4,8 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN chmod 777 /usr/src/app/run_tests.sh \
-    && ln -s /usr/src/app/run_tests.sh /
+RUN chmod +x /usr/src/app/run_tests.sh
+
+ENV PATH="/usr/src/app/run_tests.sh:${PATH}"
 
 CMD ["python","-m","http.server","--cgi","8000"]
