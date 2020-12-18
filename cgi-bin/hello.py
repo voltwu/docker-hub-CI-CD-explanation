@@ -16,7 +16,6 @@ print ("<head>")
 print ("<title>Hello</title>")
 print ("</head>")
 print ("<body>")
-print ("<h2>%s %s,welcome! this is a python cgi example.haha</h2>" % (first_name, last_name))
+print ("<h2>%s %s,welcome! this is a python cgi example. coming from dev</h2>" % (first_name, last_name))
 print ("</body>")
 print ("</html>")
-
